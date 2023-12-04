@@ -23,7 +23,6 @@ int main()
         input.push_back(line);
     }
 
-    // Close the file
     inputFile.close();
 
     for (const string &str : input)
